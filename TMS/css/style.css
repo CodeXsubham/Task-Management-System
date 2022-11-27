@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #355764;
+  padding: 0px;
+  margin: 0px;
+}
+h3 {
+  font-family: "PT Sans Caption", sans-serif;
+  font-weight: 300;
+}
+#home_page {
+  background-color: #d4f6cc;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-left: 222px;
+  padding-right: 191px;
+  padding-top: 25px;
+  height: 25vh;
+  width: 50%;
+  border-radius: 20px;
+}
+#login_home_page {
+  background-color: #81cacf;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-left: 74px;
+  padding-right: 83px;
+  padding-top: 80px;
+  height: 47vh;
+  width: 40vw;
+  border-radius: 25px;
+}
+#login_home_page h1 {
+  font-family: "Hammersmith One", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 31px;
+}
+.btn-danger {
+  float: right;
+  position: relative;
+  bottom: 40px;
+}
+#register_home_page {
+  background-color: #81cacf;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-left: 74px;
+  padding-right: 83px;
+  padding-top: 80px;
+  height: 70vh;
+  width: 40vw;
+  border-radius: 25px;
+}
+#register_home_page h1 {
+  font-family: "Hammersmith One", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 31px;
+}
+#header {
+  background-color: #d4f6cc;
+  height: 8vh;
+  width: 101vw;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 50px;
+}
+#Logout_link {
+  text-decoration: none;
+  color: white;
+}
+#left_sidebar {
+  width: 13vw;
+  height: 30vh;
+  display: inline-block;
+}
+#left_sidebar table tr {
+  background-color: #0096ff;
+  font-size: 18px;
+}
+#left_sidebar table tr:hover {
+  background-color: #d4f6cc;
+  color: black;
+}
+#Logout_link {
+  text-decoration: none;
+  color: white;
+}
+.link {
+  text-decoration: none;
+  color: white;
+}
+.link:hover {
+  color: black;
+}
+#Logout_link:hover {
+  background-color: #d4f6cc;
+  color: black;
+}
+#right_sidebar{
+    padding: 35px;
+    height: 74vh;
+    width: 75vw;
+    display: inline-block;
+    color: white;
+}
+
